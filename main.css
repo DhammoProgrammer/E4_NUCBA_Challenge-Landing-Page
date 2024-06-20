@@ -1,0 +1,138 @@
+:root {
+  --background_nav: #104eb0;
+  --fonts: #ffffff;
+  --body_background: #151515;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: var(--fonts);
+}
+
+body {
+  background-color: var(--body_background);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Section Main*/
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+#section_principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#section_principal h1 {
+  font-size: 4rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+#section_principal p {
+  margin-top: 2rem;
+  max-width: 800px;
+  text-align: center;
+}
+
+#section_principal a {
+  margin-top: 1.5rem;
+  width: fit-content;
+  border-radius: 12px;
+  background-color: var(--background_nav);
+  color: var(--fonts);
+  padding: 0.5rem;
+  text-decoration: none;
+}
+
+#descripcion {
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+#descripcion h2 {
+  font-size: 2rem;
+}
+
+/*Cards*/
+
+#cards {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px, 1rem;
+}
+
+#cards img {
+  margin-top: 1rem;
+  height: 300px;
+  width: 300px;
+}
+
+#cards p {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+#cards li {
+  list-style: none;
+}
+
+#cards a {
+  width: fit-content;
+  border-radius: 12px;
+  background-color: var(--background_nav);
+  color: var(--fonts);
+  padding: 0.5rem;
+  text-decoration: none;
+}
+
+/*Footer*/
+
+#pie_de_pagina picture img {
+  width: 100px;
+  height: 100px;
+}
+
+#pie_de_pagina {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+#pie_de_pagina ul {
+  list-style: none;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+#pie_de_pagina ul picture img {
+  width: 20px;
+  height: 20px;
+}
+
+#pie_de_pagina p {
+  font-size: 1rem;
+  text-align: center;
+  max-width: 400px;
+}
+
+#pie_de_pagina a {
+  text-decoration: none;
+}
