@@ -73,7 +73,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0px, 1rem;
+  margin: 3rem;
 }
 
 #cards img {
@@ -114,25 +114,7 @@ main {
   gap: 1.5rem;
 }
 
-#pie_de_pagina ul {
-  list-style: none;
-  text-align: center;
-  display: flex;
-  flex-direction: row;
-  gap: 2rem;
-}
-
-#pie_de_pagina ul picture img {
-  width: 20px;
-  height: 20px;
-}
-
 #pie_de_pagina p {
   font-size: 1rem;
   text-align: center;
-  max-width: 400px;
-}
-
-#pie_de_pagina a {
-  text-decoration: none;
 }
