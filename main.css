@@ -73,13 +73,26 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 3rem;
 }
 
-#cards img {
-  margin-top: 1rem;
+#cards li {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+#cards picture {
   height: 300px;
-  width: 300px;
+  max-height: 300px;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  border-radius: 10px;
+}
+#cards img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
 }
 
 #cards p {
@@ -102,16 +115,28 @@ main {
 
 /*Footer*/
 
-#pie_de_pagina picture img {
-  width: 100px;
-  height: 100px;
-}
-
 #pie_de_pagina {
   display: flex;
-  justify-content: space-around;
   align-items: center;
+  justify-content: space-between;
   gap: 1.5rem;
+  padding: 1.5rem 0;
+}
+#pie_de_pagina picture {
+  height: 2rem;
+  max-height: 2rem;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+}
+#pie_de_pagina picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+#pie_de_pagina nav {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
 }
 
 #pie_de_pagina p {
